@@ -6,7 +6,7 @@ fetch('https://dummyjson.com/quotes/random').
   then((res) => res.json()).
   then(
     (jsonRes) => {
-      console.log('Custom action:: ', quote);    
+      console.log('Custom action retrieved quote:: ', jsonRes.quote);    
       core.setOutput('quote', jsonRes.quote)
     }
   ).
