@@ -7,5 +7,5 @@ The randomly generated quote
 
 ## Example usage
 ```yml
-uses: miguelangelrl/get-motivational-quote@1.0.0
+uses: miguelangelrl/get-motivational-quote@v1.0.0
 ```
