@@ -1,0 +1,8 @@
+name: 'Get random quote'
+description: 'Get a random quote using https://dummyjson.com/quotes/random'
+outputs:
+  quote:
+    description: 'The random quote'
+runs:
+  using: 'node20'
+  main: 'index.js'

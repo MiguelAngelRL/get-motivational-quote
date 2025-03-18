@@ -1,0 +1,23 @@
+{
+  "name": "custom_action_repo",
+  "version": "1.0.0",
+  "description": "Custom action to get a random quote using https://dummyjson.com/quotes/random",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MiguelAngelRL/get-motivational-quote.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MiguelAngelRL/get-motivational-quote/issues"
+  },
+  "homepage": "https://github.com/MiguelAngelRL/get-motivational-quote#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1"
+  }
+}
