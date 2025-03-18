@@ -4,7 +4,10 @@ let quote;
 
 fetch('https://dummyjson.com/quotes/random').
   then((res) => res.json()).
-  then((jsonRes) => quote = jsonRes.quote).
+  then(
+    (jsonRes) => {
+      console.log('Custom action:: ', quote);    
+      core.setOutput('quote', jsonRes.quote)
+    }
+  ).
   catch(console.error);
-
-core.setOutput('quote', quote);
